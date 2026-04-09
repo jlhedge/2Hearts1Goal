@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\2Hearts1Goal.Application\2Hearts1Goal.Application.csproj" />
+    <ProjectReference Include="..\2Hearts1Goal.Infrastructure\2Hearts1Goal.Infrastructure.csproj" />
+    <ProjectReference Include="..\Modules\Accounts\Presentation\2Hearts1Goal.Modules.Accounts.Presentation.csproj" />
+    <ProjectReference Include="..\Modules\Subscriptions\Presentation\2Hearts1Goal.Modules.Subscriptions.Presentation.csproj" />
+    <ProjectReference Include="..\Modules\Matchmaking\Presentation\2Hearts1Goal.Modules.Matchmaking.Presentation.csproj" />
+    <ProjectReference Include="..\Modules\Messaging\Presentation\2Hearts1Goal.Modules.Messaging.Presentation.csproj" />
+    <ProjectReference Include="..\Modules\Search\Presentation\2Hearts1Goal.Modules.Search.Presentation.csproj" />
+    <ProjectReference Include="..\Modules\Users\Presentation\2Hearts1Goal.Modules.Users.Presentation.csproj" />
+    </ItemGroup>
+</Project>

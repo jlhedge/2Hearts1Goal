@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\Application\2Hearts1Goal.Modules.Search.Application.csproj" />
+  </ItemGroup>
+</Project>

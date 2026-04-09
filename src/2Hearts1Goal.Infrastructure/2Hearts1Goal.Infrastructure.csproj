@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\2Hearts1Goal.Application\2Hearts1Goal.Application.csproj" />
+    <ProjectReference Include="..\2Hearts1Goal.Domain\2Hearts1Goal.Domain.csproj" />
+    <ProjectReference Include="..\Modules\Accounts\Application\2Hearts1Goal.Modules.Accounts.Application.csproj" />
+    <ProjectReference Include="..\Modules\Users\Application\2Hearts1Goal.Modules.Users.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+  </ItemGroup>
+</Project>
