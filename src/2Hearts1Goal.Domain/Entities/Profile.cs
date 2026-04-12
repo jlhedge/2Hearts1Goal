@@ -31,7 +31,8 @@ public sealed class Profile : Entity
     public string StateOrProvince { get; private set; } = string.Empty;
     public RelationshipIntent RelationshipIntent { get; private set; }
     public string Bio { get; private set; } = string.Empty;
-    public MatchPreferences MatchPreferences { get; private set; } = new();
+    public MatchPreferences MatchPreferences { get; private set; } =
+        new(21, 45, 50, GenderIdentity.Unspecified, RelationshipIntent.LongTerm);
 
     public void Update(
         string displayName,

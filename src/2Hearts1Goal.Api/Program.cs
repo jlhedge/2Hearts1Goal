@@ -18,6 +18,8 @@ builder.Services.AddMessagingPresentation();
 builder.Services.AddSearchPresentation();
 builder.Services.AddUsersPresentation();
 builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 builder.Services.AddHealthChecks();
 
 builder.Services.AddCors(options =>
@@ -38,6 +40,12 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.UseHttpsRedirection();
 app.UseCors("Frontend");

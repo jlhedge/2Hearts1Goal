@@ -7,5 +7,6 @@
     <PackageVersion Include="Microsoft.EntityFrameworkCore" Version="10.0.4" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.4" />
     <PackageVersion Include="Microsoft.EntityFrameworkCore.SqlServer" Version="10.0.4" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.0.1" />
   </ItemGroup>
 </Project>
